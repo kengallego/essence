@@ -67,6 +67,17 @@
       }
     }
 
+    &.button__transparent--primary {
+      background-color: transparent;
+      border: var(--button-outline-border-width) solid var(--button-outline-border-color);
+      border-bottom: var(--button-outline-borderBottom-width) solid var(--button-outline-border-color);
+      color: var(--button-outline-text);
+
+      &:hover {
+        background-color: var(--button-outline-background-hover);
+      }
+    }
+
     &.button-copilot {
       background-image: var(--button-copilot-background);
       background-size: 200% auto;
